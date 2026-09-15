@@ -68,7 +68,7 @@ if st.button("Click to Predict: "):
     import time
     time.sleep(2)
   final_ans = model.predict([all_ans])[0]
-  if final_anns == 0:
+  if final_ans == 0:
     st.info("❌Customer will not Buy the Insusrance❌")
   else:
     st.success("✅Customer will Buy the Insurance✅")
