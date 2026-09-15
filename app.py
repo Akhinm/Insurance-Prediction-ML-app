@@ -46,7 +46,7 @@ st.sidebar.image(img_url)
 
 # To get user input
 all_ans = []
-for indec, col_name in enummerate(X.columns):
+for indec, col_name in enumerate(X.columns):
   min_v = X[col_name].min()
   max_v = X[col_name].max()
   if col_name != "Previous_Insurance":
