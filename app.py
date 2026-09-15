@@ -71,4 +71,4 @@ if st.button("Click to Predict: "):
   if final_anns == 0:
     st.info("❌Customer will not Buy the Insusrance❌")
   else:
-    st.success("✅Customer will Buy the Insurance✅")uw
+    st.success("✅Customer will Buy the Insurance✅")
